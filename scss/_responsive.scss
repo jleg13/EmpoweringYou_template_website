@@ -17,6 +17,8 @@
         @include transition-ease;
 
         &:hover {
+            border-left: none !important;
+            border-right: none !important;
             margin-bottom: -1px;
             border-bottom: 1px solid $secondary-color;
         }
