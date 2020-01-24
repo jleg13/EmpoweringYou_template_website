@@ -1,0 +1,36 @@
+@include media-breakpoint-up(sm) {}
+
+@include media-breakpoint-up(md) {
+    .navbar {
+        background: none;
+    }
+
+    .navbar-nav {
+        display: flex;
+        flex-flow: row wrap !important;
+        align-items: center;
+        justify-content: flex-end;
+
+    }
+
+    .nav-link {
+        @include transition-ease;
+
+        &:hover {
+            margin-bottom: -1px;
+            border-bottom: 1px solid $secondary-color;
+        }
+    }
+
+    #showcase {
+        min-height: 750px;
+
+        h1 {
+            font-size: 6rem;
+        }
+    }
+}
+
+@include media-breakpoint-up(lg) {}
+
+@include media-breakpoint-up(xl) {}

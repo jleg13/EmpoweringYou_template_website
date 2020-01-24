@@ -1,0 +1,29 @@
+#showcase {
+    background: url("../dist/img/showcase.jpg") bottom center / cover no-repeat;
+    min-height: 500px;
+    position: relative; 
+
+    #header{ 
+        z-index: 2;
+    }
+
+    #overlay{
+        background: rgba(0,0,0,0.2);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        z-index: 1;
+    }
+    h1 {
+        font-size: 4rem;
+        font-family: 'Dancing Script', cursive;
+        line-height: 1;
+    }
+    #connect{
+        font-size: 1.5rem;
+        border-radius: 2rem;
+    }
+
+}

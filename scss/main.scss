@@ -1,0 +1,9 @@
+//import bootstrap
+@import '../bootstrap/scss/bootstrap.scss';
+
+// combine custom bootstrap and custom scss
+@import 'config';
+@import 'custom';
+@import 'navbar';
+@import 'showcase';
+@import 'responsive';
