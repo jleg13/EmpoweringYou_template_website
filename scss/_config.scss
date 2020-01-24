@@ -28,3 +28,17 @@ $secondary-color:rgb(54, 105, 122);
         @return #fff;
     }
 }
+
+.trans-hover {
+    @include transition-ease;
+
+    &:hover {
+        color: $secondary-color;
+    }
+}
+
+@mixin mediaNavLayoutSm {
+    @media screen and (min-width: 370px) {
+        @content;
+    }
+}

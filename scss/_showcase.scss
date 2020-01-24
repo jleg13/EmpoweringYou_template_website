@@ -1,14 +1,14 @@
 #showcase {
-    background: url("../dist/img/showcase.jpg") bottom center / cover no-repeat;
-    min-height: 500px;
-    position: relative; 
+    height: 100vh;
+    background: url("../img/showcase.jpg") center / cover no-repeat;
+    position: relative;
 
-    #header{ 
+    #header {
         z-index: 2;
     }
 
-    #overlay{
-        background: rgba(0,0,0,0.2);
+    #overlay {
+        background: rgba(0, 0, 0, 0.4);
         position: absolute;
         top: 0;
         left: 0;
@@ -16,12 +16,22 @@
         height: 100%;
         z-index: 1;
     }
+
     h1 {
         font-size: 4rem;
         font-family: 'Dancing Script', cursive;
         line-height: 1;
     }
-    #connect{
+
+    .connect-btn {
+        margin-top: 12rem;
+
+        .col-10{
+            padding-bottom: 2rem;
+        }
+    }
+
+    #connect {
         font-size: 1.5rem;
         border-radius: 2rem;
     }

@@ -7778,16 +7778,29 @@ a.text-dark:hover, a.text-dark:focus {
   margin: 0;
   padding: 0; }
 
+.trans-hover {
+  transition: all 0.4s ease-in-out; }
+  .trans-hover:hover {
+    color: #36697a; }
+
 body {
-  background-color: #f0cc55;
   font-family: 'Cormorant', 'Open Sans', sans-serif, serif; }
 
 .navbar {
-  background: #282c47; }
+  background: #282c47;
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  opacity: 1;
+  z-index: 3;
+  border-bottom-left-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%; }
   .navbar-brand {
     font-family: 'Dancing Script', cursive;
     font-weight: 100;
-    margin-bottom: 0.5rem; }
+    margin-bottom: 0.5rem;
+    margin-left: 2rem; }
   .navbar-toggler {
     border: none;
     position: absolute;
@@ -7796,6 +7809,7 @@ body {
     top: 1.2rem;
     height: 20px;
     width: 28px;
+    margin-right: 2rem;
     cursor: pointer;
     transition: all 0.4s ease-in-out; }
     .navbar-toggler-icon {
@@ -7830,31 +7844,33 @@ body {
         .navbar-toggler-icon.open::after {
           width: 28px;
           transform: rotate(-45deg) translate(3px, -7px); }
-  .navbar #mainNavbar .navbar-nav {
-    display: flex;
-    flex-flow: column wrap;
-    align-items: center;
-    justify-content: center; }
-    .navbar #mainNavbar .navbar-nav .nav-item {
-      font-size: 1.3rem;
-      padding-bottom: 0.5rem; }
-    .navbar #mainNavbar .navbar-nav .nav-link {
-      padding-left: 1rem;
-      padding-right: 1rem;
-      transition: all 0.4s ease-in-out; }
-      .navbar #mainNavbar .navbar-nav .nav-link:hover {
-        color: #36697a;
-        border-left: 1px solid #36697a;
-        border-right: 1px solid #36697a; }
+  .navbar #mainNavbar {
+    z-index: 4; }
+    .navbar #mainNavbar .navbar-nav {
+      display: flex;
+      flex-flow: column wrap;
+      align-items: center;
+      justify-content: center; }
+      .navbar #mainNavbar .navbar-nav .nav-item {
+        font-size: 1.3rem;
+        padding-bottom: 0.5rem; }
+      .navbar #mainNavbar .navbar-nav .nav-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        transition: all 0.4s ease-in-out; }
+        .navbar #mainNavbar .navbar-nav .nav-link:hover {
+          color: #36697a;
+          border-left: 1px solid #36697a;
+          border-right: 1px solid #36697a; }
 
 #showcase {
-  background: url("../dist/img/showcase.jpg") bottom center/cover no-repeat;
-  min-height: 500px;
+  height: 100vh;
+  background: url("../img/showcase.jpg") center/cover no-repeat;
   position: relative; }
   #showcase #header {
     z-index: 2; }
   #showcase #overlay {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.4);
     position: absolute;
     top: 0;
     left: 0;
@@ -7865,13 +7881,24 @@ body {
     font-size: 4rem;
     font-family: 'Dancing Script', cursive;
     line-height: 1; }
+  #showcase .connect-btn {
+    margin-top: 12rem; }
+    #showcase .connect-btn .col-10 {
+      padding-bottom: 2rem; }
   #showcase #connect {
     font-size: 1.5rem;
     border-radius: 2rem; }
 
+@media screen and (min-width: 370px) {
+  .navbar-brand {
+    margin-left: 3rem; }
+  .navbar-toggler {
+    margin-right: 3rem; } }
 @media (min-width: 768px) {
   .navbar {
     background: none; }
+    .navbar-brand {
+      margin-left: 0 !important; }
 
   .navbar-nav {
     display: flex;
@@ -7888,8 +7915,15 @@ body {
       border-bottom: 1px solid #36697a; }
 
   #showcase {
-    min-height: 750px; }
+    display: flex;
+    flex-flow: column wrap !important;
+    align-items: center;
+    justify-content: flex-end; }
     #showcase h1 {
-      font-size: 6rem; } }
+      font-size: 6rem; }
+    #showcase .connect-btn {
+      margin-top: 0; }
+      #showcase .connect-btn .col-10 {
+        padding-bottom: 0; } }
 
 /*# sourceMappingURL=main.css.map */
