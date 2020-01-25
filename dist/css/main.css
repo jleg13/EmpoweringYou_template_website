@@ -7889,6 +7889,22 @@ body {
     font-size: 1.5rem;
     border-radius: 2rem; }
 
+path {
+  stroke-dasharray: 800;
+  stroke-dashoffset: 800; }
+
+.svg-1.in-view path {
+  animation: dash 2.5s linear forwards; }
+
+.svg-2.in-view path {
+  animation: dash 2.8s linear forwards; }
+
+.svg-3.in-view path {
+  animation: dash 8.4s linear forwards; }
+
+@keyframes dash {
+  to {
+    stroke-dashoffset: 0; } }
 @media screen and (min-width: 370px) {
   .navbar-brand {
     margin-left: 3rem; }
