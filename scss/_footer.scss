@@ -1,0 +1,21 @@
+#footer {
+
+    .nav-item {
+        font-size: 1.3rem;
+        padding-bottom: 0.5rem;
+
+    }
+
+    .nav-link {
+        padding-left: 1rem;
+        padding-right: 1rem;
+        @include transition-ease;
+
+        &:hover {
+            border-left: none !important;
+            border-right: none !important;
+            margin-bottom: -1px;
+            border-bottom: 1px solid $secondary-color;
+        }
+    }
+}

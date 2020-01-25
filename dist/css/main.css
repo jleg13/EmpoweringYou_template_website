@@ -7786,6 +7786,10 @@ a.text-dark:hover, a.text-dark:focus {
 body {
   font-family: 'Cormorant', 'Open Sans', sans-serif, serif; }
 
+body,
+html {
+  height: 100%; }
+
 .navbar {
   background: #282c47;
   position: absolute;
@@ -7865,7 +7869,6 @@ body {
 
 #showcase {
   height: 100vh;
-  background: url("../img/showcase.jpg") center/cover no-repeat;
   position: relative; }
   #showcase #header {
     z-index: 2; }
@@ -7889,6 +7892,17 @@ body {
     font-size: 1.5rem;
     border-radius: 2rem; }
 
+.parallax {
+  /* The image used */
+  background-image: url("../img/showcase.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 path {
   stroke-dasharray: 800;
   stroke-dashoffset: 800; }
@@ -7905,6 +7919,31 @@ path {
 @keyframes dash {
   to {
     stroke-dashoffset: 0; } }
+.parallax-2 {
+  /* The image used */
+  background-image: url("../img/experience-1.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+#quotes i {
+  opacity: 0.65; }
+
+.parallax-3 {
+  /* The image used */
+  background-image: url("../img/experience.jpg");
+  /* Full height */
+  height: 100%;
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
 @media screen and (min-width: 370px) {
   .navbar-brand {
     margin-left: 3rem; }
