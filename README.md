@@ -1,4 +1,4 @@
-# EmpoweringYou_template_website
+# Empowering You template website
 
 ## Project Description
 
