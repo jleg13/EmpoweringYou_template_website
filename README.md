@@ -13,7 +13,7 @@ bootstrap component library, and developing a better understaning of using Sass 
 
 ## Deployment
 
-Currently deployed on wordpress at()
+Currently deployed on wordpress at [empowering-you.com](https://empowering-you.com)
 
 ## Built With
 
