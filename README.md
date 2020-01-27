@@ -13,7 +13,7 @@ bootstrap component library, and developing a better understaning of using Sass 
 
 ## Deployment
 
-Currently deployed on git-hub pages as demo site [empowering-you](https://jleg13.github.io/EmpoweringYou_template_website/)
+Currently deployed on git-hub pages as demo site [empowering-you](https://jleg13.github.io/EmpoweringYou_template_website/).
 
 ## Built With
 
@@ -22,7 +22,7 @@ Currently deployed on git-hub pages as demo site [empowering-you](https://jleg13
 
 ## Authors
 
-* **Joshua Le Gresley** - *Initial work* - [jleg13](https://https://github.com/jleg13)
+* **Joshua Le Gresley** - *Initial work* - [jleg13](https://https://github.com/jleg13).
 
 ## Support:
 Please email jlegresl@une.edu.au if further details are required.
