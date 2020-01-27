@@ -13,7 +13,7 @@ bootstrap component library, and developing a better understaning of using Sass 
 
 ## Deployment
 
-Currently deployed on git-hub pages as demo site[empowering-you](https://empowering-you.com)
+Currently deployed on git-hub pages as demo site[empowering-you] (https://empowering-you.com)
 
 ## Built With
 
