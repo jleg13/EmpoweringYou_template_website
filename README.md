@@ -13,11 +13,11 @@ bootstrap component library, and developing a better understaning of using Sass 
 
 ## Deployment
 
-Currently deployed on git-hub pages as demo site[empowering-you] (https://empowering-you.com)
+Currently deployed on git-hub pages as demo site[empowering-you] (https://jleg13.github.io/EmpoweringYou_template_website/)
 
 ## Built With
 
-* [Bootstrap](https://getbootstrap.com/) - Front-end component library
+* [Bootstrap](https://getbootstrap.com/) - Front-end framework
 * [Sass](https://sass-lang.com/) - CSS extension language
 
 ## Authors
