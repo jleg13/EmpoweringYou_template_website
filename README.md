@@ -17,15 +17,12 @@ Currently deployed on git-hub pages as demo site [empowering-you](https://jleg13
 
 ## Built With
 
-* [Bootstrap](https://getbootstrap.com/) - Front-end framework
-* [Sass](https://sass-lang.com/) - CSS extension language
+![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
 ## Authors
 
 * **Joshua Le Gresley** - *Initial work* - [jleg13](https://https://github.com/jleg13).
 
 ## Support:
-Please email jlegresl@une.edu.au if further details are required.
-
-## Contributing:
-For major changes, please open an issue first to discuss what you would like to change.
+Please email joshualegresley@gmail.com if further details are required.
