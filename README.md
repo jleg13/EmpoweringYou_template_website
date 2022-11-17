@@ -1,6 +1,6 @@
 # Empowering You template website
 
-## Project Description
+## Project Description:
 
 This project was undertaken to develop a template home page for a new local business. It was built whilst learning the 
 bootstrap component library, and developing a better understaning of using Sass to write the CSS styling. Features include:
@@ -11,18 +11,18 @@ bootstrap component library, and developing a better understaning of using Sass 
   -bootstrap form for mailing list
   -bootstrap contact modal
 
-## Deployment
+## Deployment:
 
 Currently deployed on git-hub pages as demo site [empowering-you](https://jleg13.github.io/EmpoweringYou_template_website/).
 
-## Built With
+## Built With:
 
 ![SASS](https://img.shields.io/badge/SASS-hotpink.svg?style=for-the-badge&logo=SASS&logoColor=white)
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%23563D7C.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
 
-## Authors
+## Authors:
 
-* **Joshua Le Gresley** - *Initial work* - [jleg13](https://https://github.com/jleg13).
+**Joshua Le Gresley** - *Initial work* - [jleg13](https://https://github.com/jleg13).
 
 ## Support:
 Please email joshualegresley@gmail.com if further details are required.
